@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "averta cy w10";
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    background-color: #fff;
+   
+}
+
+
+
+.cursor{
+    height: 10px;
+    width: 10px;
+    color: #000;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    z-index: 9;
+    transition: all ease .3s;
+}
+.page1{
+    min-height: 100vh;
+    width: 100%;
+   
+    position: relative;
+}
+
+.nav{
+   
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav img{
+    height:3.5rem;
+    margin: 1rem 2rem;
+   
+   
+}
+.nav .right{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 20px;
+    
+    
+
+}
+.nav .right h2{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+.page1 .hero{
+    width: 100%;
+    
+    
+}
+.hero{
+   width: 100%;
+ 
+   padding: 13vw 12vw;
+}
+
+.hero h1{
+    font-size:1.5vw;
+    font-weight: 100;
+    
+    
+}
+.hero .heading{
+    display: flex;
+    gap: 40px;
+   
+}
+
+.heading h1{
+    font-size: 7vw;
+    font-weight: 600;
+    letter-spacing: -5px;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+.heading h1:hover{
+    color: #000;
+}
+.nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-last p{
+    font-size:2vw;
+    font-weight: 600;
+    padding: 2vw 12vw;
+    letter-spacing: -1px;
+}
+.hero-last p::selection{
+    color: #fff;
+    background: #000;
+}
+#featured {
+    padding: 10vw 15vw;
+}
+
+.fheading>h1 {
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.fheading>h1:nth-child(2) {
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#fimages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+}
+
+#fleft {
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+}
+
+.fleftelm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+
+.fleftelm h1 {
+    font-size: 2.3vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+.fleftelm h3 {
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.fleftelm h4 {
+    opacity: .5;
+}
+
+#fright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+
+#fright .images {
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
+
+#fright .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.btndiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btndiv button {
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+#dev{
+    font-size: 2vw;
+    width: 70%;
+    padding: 5vw 15vw;
+   
+}
+#dev h1{
+    font-weight: 600;
+}
+#dev h1::selection{
+    color: #fff;
+    background-color: #000;
+}
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -1px;
+    
+}
+*::selection {
+    color: #ffff;
+    background-color: #000;
+}
+#slides {
+    padding: 3vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide {
+    width: 30%;
+}
+
+.slide .img {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+   
+   
+}
+
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.slide .tag {
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+
+.slide h3 {
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
