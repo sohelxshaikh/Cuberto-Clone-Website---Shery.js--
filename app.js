@@ -17,6 +17,7 @@ gsap.to(".fleftelm", {
   ease: Power1,
 });
 
+
 let sections = document.querySelectorAll(".fleftelm");
 Shery.imageEffect(".fright .images", {
   style: 5,
